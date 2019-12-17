@@ -441,8 +441,7 @@
   };
 
   $(function() {
-    $.
-      = transitionEnd();
+    $.support.transition = transitionEnd();
   });
   // ============================================================
 });
