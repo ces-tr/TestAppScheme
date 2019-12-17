@@ -218,6 +218,7 @@
       }
       $('#smartbanner')
         .css('position', this.options.layer ? 'absolute' : 'static');
+      $('#smartbanner').show();
     },
 
     listen: function() {
