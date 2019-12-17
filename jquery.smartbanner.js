@@ -170,7 +170,7 @@
               '<span>' + this.author + '</span>' +
               '<span>' + inStore + '</span>' +
             '</div>' +
-            '<a href="intent://http/#Intent;scheme=zxing;package=com.micsoftware.workerapp;end"" class="sb-button">' +
+            '<a href="intent://#Intent;scheme=http;package=com.micsoftware.workerapp;end"" class="sb-button">' +
               '<span>' + this.options.button + '</span>' +
             '</a>' +
           '</div>' +
