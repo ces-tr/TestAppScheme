@@ -323,7 +323,7 @@
       if (this.options.hideOnInstall) {
         this.hide();
       }
-      this.setCookie('sb-installed', 'true', this.options.daysReminder);
+      //this.setCookie('sb-installed', 'true', this.options.daysReminder);
       this.options.onInstall(e);
     },
 
