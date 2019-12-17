@@ -158,6 +158,8 @@
       if (this.type == 'android' && this.options.GooglePlayParams) {
         link += '&referrer=' + this.options.GooglePlayParams;
       }
+      //intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;end"
+      //intent://#Intent;action=android.intent.action.SEND;type=text/plain;S.android.intent.extra.TEXT=http://gigronin.com;S.android.intent.extra.SUBJECT=Test;end
       var banner = (
         '<div id="smartbanner" class="' + this.type + '">' +
           '<div class="sb-container">' +
@@ -168,7 +170,7 @@
               '<span>' + this.author + '</span>' +
               '<span>' + inStore + '</span>' +
             '</div>' +
-            '<a href="intent://#Intent;action=android.intent.action.SEND;type=text/plain;S.android.intent.extra.TEXT=http://gigronin.com;S.android.intent.extra.SUBJECT=Test;end" class="sb-button">' +
+            '<a href="intent://http/#Intent;scheme=zxing;package=com.micsoftware.workerapp;end"" class="sb-button">' +
               '<span>' + this.options.button + '</span>' +
             '</a>' +
           '</div>' +
