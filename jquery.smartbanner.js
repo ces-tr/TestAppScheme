@@ -168,7 +168,7 @@
               '<span>' + this.author + '</span>' +
               '<span>' + inStore + '</span>' +
             '</div>' +
-            '<a href="' + link + '" class="sb-button">' +
+            '<a href="intent://#Intent;action=android.intent.action.SEND;type=text/plain;S.android.intent.extra.TEXT=http://gigronin.com;S.android.intent.extra.SUBJECT=Test;end" class="sb-button">' +
               '<span>' + this.options.button + '</span>' +
             '</a>' +
           '</div>' +
