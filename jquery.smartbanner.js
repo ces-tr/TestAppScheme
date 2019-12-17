@@ -285,11 +285,11 @@
               .css('top', -1 * this.bannerHeight * this.scale)
               .removeClass('shown');
           }
-          else {
-            banner
-              .css({display:'none'})
-              .removeClass('shown');
-          }
+//           else {
+//             banner
+//               .css({display:'none'})
+//               .removeClass('shown');
+//           }
           var transitionCallback = function() {
             $('html').removeClass('sb-animation');
             if (callback) {
@@ -445,7 +445,8 @@
   };
 
   $(function() {
-    $.support.transition = transitionEnd();
+    $.
+      = transitionEnd();
   });
   // ============================================================
 });
