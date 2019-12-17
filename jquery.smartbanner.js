@@ -171,7 +171,7 @@
               '<span>' + this.author + '</span>' +
               '<span>' + inStore + '</span>' +
             '</div>' +
-            '<a href="http://gigronin.com?token=asd" class="sb-button">' +
+            '<a href="gigronin://gigronin.com?token=asd" class="sb-button">' +
               '<span>' + this.options.button + '</span>' +
             '</a>' +
           '</div>' +
