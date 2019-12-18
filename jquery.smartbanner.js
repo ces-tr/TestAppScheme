@@ -163,6 +163,7 @@
       //myscheme://myhost/some/other/parameters
       //"gigronin://gigronin.com?token=asd"
       //intent://path/#Intent;scheme=yourapp;package=com.yourapp.example;end
+      //intent://smarquis.fr/action?key=value#data#Intent;scheme=link;package=fr.smarquis.applinks;S.key=value;S.market_referrer=my%20referrer%20data;end
       var banner = (
         '<div id="smartbanner" class="' + this.type + '">' +
           '<div class="sb-container">' +
@@ -173,7 +174,7 @@
               '<span>' + this.author + '</span>' +
               '<span>' + inStore + '</span>' +
             '</div>' +
-            '<a href="intent://#Intent;action=android.intent.action.SEND;type=text/plain;S.android.intent.extra.TEXT=http://gigronin.com?token=asd;scheme=gigronin;package=com.micsoftware.workerapp;end" class="sb-button">' +
+            '<a href="intent://#Intent;S.token=asd;scheme=gigronin;package=com.micsoftware.workerapp;end" class="sb-button">' +
               '<span>' + this.options.button + '</span>' +
             '</a>' +
           '</div>' +
