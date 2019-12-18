@@ -161,6 +161,8 @@
       //intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;end"
       //intent://#Intent;action=android.intent.action.SEND;type=text/plain;S.android.intent.extra.TEXT=http://gigronin.com;S.android.intent.extra.SUBJECT=Test;end
       //myscheme://myhost/some/other/parameters
+      //"gigronin://gigronin.com?token=asd"
+      //intent://path/#Intent;scheme=yourapp;package=com.yourapp.example;end
       var banner = (
         '<div id="smartbanner" class="' + this.type + '">' +
           '<div class="sb-container">' +
@@ -171,7 +173,7 @@
               '<span>' + this.author + '</span>' +
               '<span>' + inStore + '</span>' +
             '</div>' +
-            '<a href="gigronin://gigronin.com?token=asd" class="sb-button">' +
+            '<a href="intent://#Intent;action=android.intent.action.SEND;type=text/plain;S.android.intent.extra.TEXT=http://gigronin.com?token=asd;scheme=gigronin;package=com.micsoftware.workerapp;end" class="sb-button">' +
               '<span>' + this.options.button + '</span>' +
             '</a>' +
           '</div>' +
